@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_bottom_sheet"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🤖 TRỢ LÝ TRỰC BAN CỨU HỘ AI"
+        android:textColor="#C084FC"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="Hỗ trợ hỏi đáp kỹ năng thoát hiểm, cứu trợ khẩn cấp mùa mưa lũ 24/7"
+        android:textColor="@color/text_secondary"
+        android:textSize="12sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/bg_card_secondary"
+        android:padding="12dp">
+
+        <TextView
+            android:id="@+id/tvAiChatResponse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="4dp"
+            android:text="Xin chào! Tôi là Trợ lý AI Trực ban NORTHSTAR. Hãy nhập câu hỏi về tình hình ngập lụt, lộ trình tránh ngập an toàn hoặc kỹ năng ứng phó khi xe bị chết máy trong nước ngập."
+            android:textColor="@color/text_primary"
+            android:textSize="13sp" />
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/etAiPrompt"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_card_secondary"
+            android:hint="Hỏi trực ban AI..."
+            android:paddingHorizontal="14dp"
+            android:textColor="@color/text_primary"
+            android:textColorHint="@color/text_muted"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btnSendAiPrompt"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginStart="8dp"
+            android:backgroundTint="#7C3AED"
+            android:text="Gửi"
+            android:textColor="@color/text_primary" />
+    </LinearLayout>
+
+</LinearLayout>

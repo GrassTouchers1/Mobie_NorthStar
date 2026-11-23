@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">NORTHSTAR</string>
+    <string name="app_subtitle">Cảnh Báo Ngập &amp; Cứu Hộ Khẩn Cấp</string>
+    
+    <!-- Bottom Nav -->
+    <string name="nav_map">Bản đồ</string>
+    <string name="nav_sos">Báo SOS</string>
+    <string name="nav_weather">Thời tiết</string>
+    <string name="nav_ai_chat">Trực ban AI</string>
+
+    <!-- Station Detail -->
+    <string name="water_level_alert">MỰC NƯỚC BÁO ĐỘNG</string>
+    <string name="overflow_threshold">Ngưỡng tràn</string>
+    <string name="ai_flood_prediction">DỰ ĐOÁN NGẬP BẰNG AI</string>
+    <string name="btn_start_point">Điểm Đi</string>
+    <string name="btn_end_point">Điểm Đến</string>
+    <string name="btn_call_rescue">GỌI CỨU HỘ 114</string>
+</resources>
